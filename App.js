@@ -24,7 +24,7 @@ const MainStackScreen = () => {
 const App = () => {
   return (
     <NavigationContainer>
-      <RootStack.Navigator mode="modal">
+      <RootStack.Navigator presentation="screenOptions">
         <RootStack.Screen
           name="Main"
           component={MainStackScreen}
